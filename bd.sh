@@ -3,7 +3,8 @@
 urlprefix='http://example.com'
 
 function log (){
-	echo -e "`date`⌚️$1" >> ~/.bd/log
+	#Disable for your personal safety, be sure only enable this when your are debugging
+	#echo -e "`date`⌚️$1" >> ~/.bd/log
 }
 
 function checkver(){
